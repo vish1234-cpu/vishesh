@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="boots.css">
+        <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script> 
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <title>Form using bootstrap</title>
+    </head>
+    <body>
+        <div id="nav1">
+        <nav class="navbar navbar-default" style="background-color: white;">
+        <div class="container-fluid">
+            <p class="navbar-text" style="color: seagreen;">TO THE NEW</p>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="home" style="color: seagreen">Home</a></li>
+            <li><a href="quick help" style="color: seagreen">Quick Help</a></li>
+          </ul>
+          </div>
+        </nav>
+
+       
+
+       
+            
+
+      
+        <div class="container" style=" width:500px; border: black solid 1px;"> <br> 
+            <div id="breport">  
+                <h3 id="bug-report">Bug Report</h3> 
+            </div><br> 
+            <form action="/action_page.php">
+                <div class="form-group">
+                  <label for="Text">Text:*</label> 
+                  <input type="text" class="form-control" id="text">
+                </div>
+                <div class="form-group">
+                  <label for="des">Description:*</label>
+                  <textarea name="Description" class="form-control" id="des"> </textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="Operating System">Operating System:</label>
+                    <select class="form-control" id="OperatingSystem">
+                      <option>WindowsXp</option>
+                      <option>windows7</option>
+                      <option>IOS</option>
+                      <option>Android</option>
+                    </select>
+                  </div>
+
+
+
+    
+                  <div class="form-group">
+                    <label for="Product">Product:*</label>
+                    <select class="form-control" id="Product">
+                      <option>Formoid</option>
+                      <option>Tormoid</option>
+                      <option>Gormoid</option>
+                      <option>Android</option>
+                    </select>
+                  </div>
+ 
+
+
+
+                  <div class="form-group">
+                    <label for="Version">Version:*</label>
+                    <input type="text" class="form-control" id="Version">
+                  </div>
+
+
+                  
+        
+                  <div class="form-group">
+                      <label for="License:">License:</label> <br> 
+                    <label class="radio-inline">
+                        <input type="radio" value="">Free
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" value="">Business 
+                      </label>
+                  </div>
+
+
+
+
+                  <div class="form-group">
+                    <label for="Severity">Severity:*</label>
+                    <select class="form-control" id="Severity">
+                      <option>Critical</option>
+                      <option>Tormoid</option>
+                      <option>Gormoid</option>
+                      <option>Android</option>
+                    </select>
+                  </div>
+
+
+                  <div class="form-group">
+                    <label> Attachments:</label> <br>
+                    <br> 
+
+                    <input type="file" name="Attachments" class="att">
+                    <br>
+                    <br> 
+  
+                    
+                       <div id="ffooter">
+                        <button type="submit" class="btn btn-default" style="float: right; background-color: seagreen; color: white;">Send</button>
+                       </div>
+
+                  </div>
+
+
+            
+
+
+
+
+
+               
+              </form>
+        </div>
+    </div>
+ 
+
+
+    </body>
+</html>

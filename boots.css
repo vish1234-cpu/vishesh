@@ -1,0 +1,62 @@
+#te{
+    color: black;
+}
+
+
+#des{
+    width:100%; 
+    border-radius: 4px;
+    height: 100px;
+    margin: auto;
+}
+
+#breport{
+    
+    color: white;
+    background-color: lightgray;
+    padding : 30px 30px;
+    font-size: 26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 4px;  
+}
+
+#OperatingSystem{
+    width:100%; 
+    background-color: seagreen; 
+    color: white;
+    height: 30px;
+    border-radius: 4px;
+}
+
+#Product{
+    width:100%; 
+    background-color: seagreen; 
+    color: white;
+    height: 30px;
+    border-radius: 4px;
+}
+
+#Version {
+    width: 150px;
+    border-radius: 4px;
+    
+}
+
+#Severity{
+    width:100%;
+    background-color: seagreen;
+     color: white;
+     height: 30px;
+     border-radius: 4px;
+}
+
+
+
+
+#ffooter{
+    background-color: lightgrey;
+    height: 100px;
+    padding: 50px 50px;
+    border-radius: 4px;
+    
+}
