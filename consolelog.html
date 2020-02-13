@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Copy One Object To Another Object 
+        </title>
+    </head>
+    <body>
+     <p id="io" style="font-size: larger; color: blueviolet;">Now the person name is copied to copyobj.</p>
+
+     <script>
+        var person = {
+    firstName: "Ram",
+    lastName: "Sharma",
+    age: 50,
+    eyeColor: "blue"
+  };
+   
+   
+  
+  var copyobj = Object.assign({}, person);
+  console.log(copyobj);
+  
+  
+  
+  
+  
+  document.getElementById("io").innerHTML =
+  copyobj.firstName + " "+ copyobj.lastName+ " is " + copyobj.age + " years old and his eye color is" +" "+ copyobj.eyeColor+ ".";
+  
+    </script>
+  
+  
+    </body>
+</html>

@@ -1,0 +1,87 @@
+
+ 
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Employee List</title>
+</head>
+<body>
+    <script>
+		var Employee = [
+    						{ Name: 'Ram', age: 23, salary: 900 ,DOB:'15-01-1996'},
+   							{ Name: 'Shyam', age: 58, salary: 10000 ,DOB:'02-02-1999'},
+    						{ Name: 'Varun', age: 37, salary: 5000 ,DOB:'25-07-1980'},
+    						{ Name: 'Mahesh', age: 40, salary: 105000 ,DOB:'16-03-1980'},
+    						{ Name: 'Sameer', age: 25, salary: 250000 ,DOB:'10-04-1995'},
+    						{ Name: 'Radhe', age: 46, salary: 9000 ,DOB:'19-10-1990'},
+    						{ Name: 'Ritik', age: 29, salary: 800000 ,DOB:'03-03-1989'},
+						];
+						document.write( "Ques.1) Employee Details are:");
+						for(var i in Employee)
+						{
+							document.write(" Employee Name: "+Employee[i].Name +"Employee Age:"+ Employee[i].age + "Employee Salary:" + Employee[i].salary + " "+ "Employee DOB:" + Employee[i].DOB + "<br>");
+						}
+                    
+
+
+						
+						document.write("Ques2.)Employee salary greater than 5000 :");
+						for(var i in Employee)
+						{
+							if(Employee[i].salary>5000)
+								document.write(" "+Employee[i].Name+"<br>");
+						}
+		
+
+						
+						document.write("Ques.3)Group Employee on the basis of their age:");
+						var agelessthan20=[];
+						var age21to30=[];
+                        var age31to40=[];
+                        var age41to50=[];
+						var age50andabove=[];
+						for(var i in Employee){
+							if(Employee[i].age<=20)
+								 agelessthan20.push(Employee[i].Name);
+							else if(Employee[i].age<=30)
+								 age21to30.push(Employee[i].Name);
+							else if(Employee[i].age<=40)
+								 age31to40.push(Employee[i].Name);
+                            else if(Employee[i].age<=50)
+                                 age41to50.push(Employee[i].Name)
+                            else
+                            age50andabove.push(Employee[i].Name);
+						}
+						document.write("<br>age less than 20: "+agelessthan20);
+						document.write("<br>age between 20 and 30: "+age21to30);
+                        document.write("<br>age between 30 and 40: "+age31to40);
+
+                        document.write("<br>age between 40 and 50: "+age41to50);
+
+
+
+
+						document.write("<br>age above 50: "+age50above+"<br>");
+
+						
+					
+						document.write("Ques.4) Employees with salary less than 1000 and age greater than 20. Then give them an increment 5 times their salary.</b>");
+						var salaryhike=[];
+						for(var i in Employee){
+							if(Employee[i].salary<=1000&&Employee[i].age>20)
+							{
+								document.write("<br>");
+								var old=Employee[i].salary;
+								Employee[i].salary=Employee[i].salary*5;
+								document.write("name: "+Employee[i].Name+" old salary: "+old+" new salary: "+Employee[i].salary);
+							}
+						}
+
+
+
+
+
+	</script>
+</body>
+</html>

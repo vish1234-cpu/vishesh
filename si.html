@@ -1,0 +1,65 @@
+<html>
+    <head>
+    <title>Simple Interest Calculation</title>
+    
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script> 
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+
+
+
+
+        <script>
+            function calculate()
+            {
+                p = document.getElementById("p").value;
+                n = document.getElementById("n").value;
+                r = document.getElementById("r").value;
+                result = document.getElementById("result"); 
+                
+                result.innerHTML = "The interest is " + (p*n*r/100);
+
+                
+            }
+        </script>
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div class="container">
+                <h1 style="color: firebrick;">Simple Interest Calculation</h1><br><br> 
+        <label for="amount">
+            Amount:* <input type="number" id="p" required class="am"> <br><br>
+        </label>
+       
+        <label for="rate"> 
+            Rate:* <input type="number" id="r" required> <br><br>
+        </label>
+       
+        <label for="years">
+            No. of Years:* <input type="number" id="n" required> <br><br> 
+
+        </label>
+        <br> <br> 
+        
+
+        <button onclick="calculate()" style="background-color: chocolate; color: white;">Calculate</button>
+
+        <p id="result"></p>
+            </div>
+      
+
+       
+        
+        </div>
+    </body>
+</html>

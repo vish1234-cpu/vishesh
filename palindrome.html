@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script> 
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+
+	<title>Palindrome String</title>
+
+	<script>
+		
+		function myFunction()
+		{
+			
+			var str = document.getElementById('txtbox').value;
+			
+			
+			var result = checkPalindrome(str);
+			alert('The Entered String "'+str +'" is "'+result+'"');
+		}
+		
+		function checkPalindrome(str)
+		{
+			var orignalStr;
+			 
+			
+			str = str.toLowerCase();
+			
+			
+			orignalStr = str;
+			
+			
+			str = str.split(''); 
+			str = str.reverse(); 
+			str = str.join(''); 
+			
+			var reverseStr = str;
+			
+			
+			if(orignalStr == reverseStr){
+				return 'Palindrome'; 
+				return 'Not Palindrome';
+			}
+		}
+	</script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <form>
+                <h1 style="background-color: blue; color: wheat;"> Palindrome String</h1><br>
+                <input type="text" id="txtbox" placeholder="Enter any String"><br><br> 
+                <input type="button" onclick="myFunction()" value="Check Palindrome" style="color: black; background-color: blanchedalmond;">
+            </form>
+        </div>
+    </div>
+	
+</body>
+</html>
