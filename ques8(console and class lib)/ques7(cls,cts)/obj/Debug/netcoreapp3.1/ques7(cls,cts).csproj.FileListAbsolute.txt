@@ -1,0 +1,11 @@
+C:\Users\Vishesh Kapoor\source\repos\ques7(cls,cts)\bin\Debug\netcoreapp3.1\ques7(cls,cts).exe
+C:\Users\Vishesh Kapoor\source\repos\ques7(cls,cts)\bin\Debug\netcoreapp3.1\ques7(cls,cts).deps.json
+C:\Users\Vishesh Kapoor\source\repos\ques7(cls,cts)\bin\Debug\netcoreapp3.1\ques7(cls,cts).runtimeconfig.json
+C:\Users\Vishesh Kapoor\source\repos\ques7(cls,cts)\bin\Debug\netcoreapp3.1\ques7(cls,cts).runtimeconfig.dev.json
+C:\Users\Vishesh Kapoor\source\repos\ques7(cls,cts)\bin\Debug\netcoreapp3.1\ques7(cls,cts).dll
+C:\Users\Vishesh Kapoor\source\repos\ques7(cls,cts)\bin\Debug\netcoreapp3.1\ques7(cls,cts).pdb
+C:\Users\Vishesh Kapoor\source\repos\ques7(cls,cts)\obj\Debug\netcoreapp3.1\ques7(cls,cts).csprojAssemblyReference.cache
+C:\Users\Vishesh Kapoor\source\repos\ques7(cls,cts)\obj\Debug\netcoreapp3.1\ques7(cls,cts).AssemblyInfoInputs.cache
+C:\Users\Vishesh Kapoor\source\repos\ques7(cls,cts)\obj\Debug\netcoreapp3.1\ques7(cls,cts).AssemblyInfo.cs
+C:\Users\Vishesh Kapoor\source\repos\ques7(cls,cts)\obj\Debug\netcoreapp3.1\ques7(cls,cts).dll
+C:\Users\Vishesh Kapoor\source\repos\ques7(cls,cts)\obj\Debug\netcoreapp3.1\ques7(cls,cts).pdb

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ques8(consoleand class file)/1.0.0": {
+        "runtime": {
+          "ques8(consoleand class file).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ques8(consoleand class file)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

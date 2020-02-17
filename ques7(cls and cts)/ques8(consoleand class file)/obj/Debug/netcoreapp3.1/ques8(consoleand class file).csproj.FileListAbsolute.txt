@@ -1,0 +1,10 @@
+C:\Users\Vishesh Kapoor\source\repos\ques8(consoleand class file)\obj\Debug\netcoreapp3.1\ques8(consoleand class file).AssemblyInfoInputs.cache
+C:\Users\Vishesh Kapoor\source\repos\ques8(consoleand class file)\obj\Debug\netcoreapp3.1\ques8(consoleand class file).AssemblyInfo.cs
+C:\Users\Vishesh Kapoor\source\repos\ques8(consoleand class file)\bin\Debug\netcoreapp3.1\ques8(consoleand class file).exe
+C:\Users\Vishesh Kapoor\source\repos\ques8(consoleand class file)\bin\Debug\netcoreapp3.1\ques8(consoleand class file).deps.json
+C:\Users\Vishesh Kapoor\source\repos\ques8(consoleand class file)\bin\Debug\netcoreapp3.1\ques8(consoleand class file).runtimeconfig.json
+C:\Users\Vishesh Kapoor\source\repos\ques8(consoleand class file)\bin\Debug\netcoreapp3.1\ques8(consoleand class file).runtimeconfig.dev.json
+C:\Users\Vishesh Kapoor\source\repos\ques8(consoleand class file)\bin\Debug\netcoreapp3.1\ques8(consoleand class file).dll
+C:\Users\Vishesh Kapoor\source\repos\ques8(consoleand class file)\bin\Debug\netcoreapp3.1\ques8(consoleand class file).pdb
+C:\Users\Vishesh Kapoor\source\repos\ques8(consoleand class file)\obj\Debug\netcoreapp3.1\ques8(consoleand class file).dll
+C:\Users\Vishesh Kapoor\source\repos\ques8(consoleand class file)\obj\Debug\netcoreapp3.1\ques8(consoleand class file).pdb
