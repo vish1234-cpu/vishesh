@@ -1,0 +1,11 @@
+C:\Users\Vishesh Kapoor\source\repos\multiplicationtable\obj\Debug\netcoreapp3.1\multiplicationtable.csprojAssemblyReference.cache
+C:\Users\Vishesh Kapoor\source\repos\multiplicationtable\obj\Debug\netcoreapp3.1\multiplicationtable.AssemblyInfoInputs.cache
+C:\Users\Vishesh Kapoor\source\repos\multiplicationtable\obj\Debug\netcoreapp3.1\multiplicationtable.AssemblyInfo.cs
+C:\Users\Vishesh Kapoor\source\repos\multiplicationtable\bin\Debug\netcoreapp3.1\multiplicationtable.exe
+C:\Users\Vishesh Kapoor\source\repos\multiplicationtable\bin\Debug\netcoreapp3.1\multiplicationtable.deps.json
+C:\Users\Vishesh Kapoor\source\repos\multiplicationtable\bin\Debug\netcoreapp3.1\multiplicationtable.runtimeconfig.json
+C:\Users\Vishesh Kapoor\source\repos\multiplicationtable\bin\Debug\netcoreapp3.1\multiplicationtable.runtimeconfig.dev.json
+C:\Users\Vishesh Kapoor\source\repos\multiplicationtable\bin\Debug\netcoreapp3.1\multiplicationtable.dll
+C:\Users\Vishesh Kapoor\source\repos\multiplicationtable\bin\Debug\netcoreapp3.1\multiplicationtable.pdb
+C:\Users\Vishesh Kapoor\source\repos\multiplicationtable\obj\Debug\netcoreapp3.1\multiplicationtable.dll
+C:\Users\Vishesh Kapoor\source\repos\multiplicationtable\obj\Debug\netcoreapp3.1\multiplicationtable.pdb

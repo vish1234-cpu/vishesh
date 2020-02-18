@@ -1,0 +1,16 @@
+C:\Users\Vishesh Kapoor\source\repos\convow(if-else)\bin\Debug\netcoreapp3.1\convow(if-else).exe
+C:\Users\Vishesh Kapoor\source\repos\convow(if-else)\bin\Debug\netcoreapp3.1\convow(if-else).deps.json
+C:\Users\Vishesh Kapoor\source\repos\convow(if-else)\bin\Debug\netcoreapp3.1\convow(if-else).runtimeconfig.json
+C:\Users\Vishesh Kapoor\source\repos\convow(if-else)\bin\Debug\netcoreapp3.1\convow(if-else).runtimeconfig.dev.json
+C:\Users\Vishesh Kapoor\source\repos\convow(if-else)\bin\Debug\netcoreapp3.1\convow(if-else).dll
+C:\Users\Vishesh Kapoor\source\repos\convow(if-else)\bin\Debug\netcoreapp3.1\convow(if-else).pdb
+C:\Users\Vishesh Kapoor\source\repos\convow(if-else)\obj\Debug\netcoreapp3.1\convow(if-else).csprojAssemblyReference.cache
+C:\Users\Vishesh Kapoor\source\repos\convow(if-else)\obj\Debug\netcoreapp3.1\convow(if-else).AssemblyInfoInputs.cache
+C:\Users\Vishesh Kapoor\source\repos\convow(if-else)\obj\Debug\netcoreapp3.1\convow(if-else).AssemblyInfo.cs
+C:\Users\Vishesh Kapoor\source\repos\convow(if-else)\obj\Debug\netcoreapp3.1\convow(if-else).dll
+C:\Users\Vishesh Kapoor\source\repos\convow(if-else)\obj\Debug\netcoreapp3.1\convow(if-else).pdb
+C:\Users\Vishesh Kapoor\Desktop\dotnet2\ques3\convow(if-else)\obj\Debug\netcoreapp3.1\convow(if-else).csprojAssemblyReference.cache
+C:\Users\Vishesh Kapoor\Desktop\dotnet2\ques3\convow(if-else)\obj\Debug\netcoreapp3.1\convow(if-else).AssemblyInfoInputs.cache
+C:\Users\Vishesh Kapoor\Desktop\dotnet2\ques3\convow(if-else)\obj\Debug\netcoreapp3.1\convow(if-else).AssemblyInfo.cs
+C:\Users\Vishesh Kapoor\Desktop\dotnet2\ques3\convow(if-else)\obj\Debug\netcoreapp3.1\convow(if-else).dll
+C:\Users\Vishesh Kapoor\Desktop\dotnet2\ques3\convow(if-else)\obj\Debug\netcoreapp3.1\convow(if-else).pdb

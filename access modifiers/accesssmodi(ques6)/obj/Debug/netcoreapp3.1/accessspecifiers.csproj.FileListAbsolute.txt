@@ -1,0 +1,11 @@
+C:\Users\Vishesh Kapoor\source\repos\accessspecifiers\bin\Debug\netcoreapp3.1\accessspecifiers.exe
+C:\Users\Vishesh Kapoor\source\repos\accessspecifiers\bin\Debug\netcoreapp3.1\accessspecifiers.deps.json
+C:\Users\Vishesh Kapoor\source\repos\accessspecifiers\bin\Debug\netcoreapp3.1\accessspecifiers.runtimeconfig.json
+C:\Users\Vishesh Kapoor\source\repos\accessspecifiers\bin\Debug\netcoreapp3.1\accessspecifiers.runtimeconfig.dev.json
+C:\Users\Vishesh Kapoor\source\repos\accessspecifiers\bin\Debug\netcoreapp3.1\accessspecifiers.dll
+C:\Users\Vishesh Kapoor\source\repos\accessspecifiers\bin\Debug\netcoreapp3.1\accessspecifiers.pdb
+C:\Users\Vishesh Kapoor\source\repos\accessspecifiers\obj\Debug\netcoreapp3.1\accessspecifiers.csprojAssemblyReference.cache
+C:\Users\Vishesh Kapoor\source\repos\accessspecifiers\obj\Debug\netcoreapp3.1\accessspecifiers.AssemblyInfoInputs.cache
+C:\Users\Vishesh Kapoor\source\repos\accessspecifiers\obj\Debug\netcoreapp3.1\accessspecifiers.AssemblyInfo.cs
+C:\Users\Vishesh Kapoor\source\repos\accessspecifiers\obj\Debug\netcoreapp3.1\accessspecifiers.dll
+C:\Users\Vishesh Kapoor\source\repos\accessspecifiers\obj\Debug\netcoreapp3.1\accessspecifiers.pdb

@@ -1,0 +1,11 @@
+C:\Users\Vishesh Kapoor\source\repos\boxing\bin\Debug\netcoreapp3.1\boxing.exe
+C:\Users\Vishesh Kapoor\source\repos\boxing\bin\Debug\netcoreapp3.1\boxing.deps.json
+C:\Users\Vishesh Kapoor\source\repos\boxing\bin\Debug\netcoreapp3.1\boxing.runtimeconfig.json
+C:\Users\Vishesh Kapoor\source\repos\boxing\bin\Debug\netcoreapp3.1\boxing.runtimeconfig.dev.json
+C:\Users\Vishesh Kapoor\source\repos\boxing\bin\Debug\netcoreapp3.1\boxing.dll
+C:\Users\Vishesh Kapoor\source\repos\boxing\bin\Debug\netcoreapp3.1\boxing.pdb
+C:\Users\Vishesh Kapoor\source\repos\boxing\obj\Debug\netcoreapp3.1\boxing.csprojAssemblyReference.cache
+C:\Users\Vishesh Kapoor\source\repos\boxing\obj\Debug\netcoreapp3.1\boxing.AssemblyInfoInputs.cache
+C:\Users\Vishesh Kapoor\source\repos\boxing\obj\Debug\netcoreapp3.1\boxing.AssemblyInfo.cs
+C:\Users\Vishesh Kapoor\source\repos\boxing\obj\Debug\netcoreapp3.1\boxing.dll
+C:\Users\Vishesh Kapoor\source\repos\boxing\obj\Debug\netcoreapp3.1\boxing.pdb

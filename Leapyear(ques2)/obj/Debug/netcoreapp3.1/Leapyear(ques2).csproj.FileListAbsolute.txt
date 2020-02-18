@@ -1,0 +1,11 @@
+C:\Users\Vishesh Kapoor\source\repos\Leapyear(ques2)\obj\Debug\netcoreapp3.1\Leapyear(ques2).csprojAssemblyReference.cache
+C:\Users\Vishesh Kapoor\source\repos\Leapyear(ques2)\obj\Debug\netcoreapp3.1\Leapyear(ques2).AssemblyInfoInputs.cache
+C:\Users\Vishesh Kapoor\source\repos\Leapyear(ques2)\obj\Debug\netcoreapp3.1\Leapyear(ques2).AssemblyInfo.cs
+C:\Users\Vishesh Kapoor\source\repos\Leapyear(ques2)\bin\Debug\netcoreapp3.1\Leapyear(ques2).exe
+C:\Users\Vishesh Kapoor\source\repos\Leapyear(ques2)\bin\Debug\netcoreapp3.1\Leapyear(ques2).deps.json
+C:\Users\Vishesh Kapoor\source\repos\Leapyear(ques2)\bin\Debug\netcoreapp3.1\Leapyear(ques2).runtimeconfig.json
+C:\Users\Vishesh Kapoor\source\repos\Leapyear(ques2)\bin\Debug\netcoreapp3.1\Leapyear(ques2).runtimeconfig.dev.json
+C:\Users\Vishesh Kapoor\source\repos\Leapyear(ques2)\bin\Debug\netcoreapp3.1\Leapyear(ques2).dll
+C:\Users\Vishesh Kapoor\source\repos\Leapyear(ques2)\bin\Debug\netcoreapp3.1\Leapyear(ques2).pdb
+C:\Users\Vishesh Kapoor\source\repos\Leapyear(ques2)\obj\Debug\netcoreapp3.1\Leapyear(ques2).dll
+C:\Users\Vishesh Kapoor\source\repos\Leapyear(ques2)\obj\Debug\netcoreapp3.1\Leapyear(ques2).pdb

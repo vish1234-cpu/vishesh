@@ -1,0 +1,10 @@
+C:\Users\Vishesh Kapoor\source\repos\unboxing\bin\Debug\netcoreapp3.1\unboxing.exe
+C:\Users\Vishesh Kapoor\source\repos\unboxing\bin\Debug\netcoreapp3.1\unboxing.deps.json
+C:\Users\Vishesh Kapoor\source\repos\unboxing\bin\Debug\netcoreapp3.1\unboxing.runtimeconfig.json
+C:\Users\Vishesh Kapoor\source\repos\unboxing\bin\Debug\netcoreapp3.1\unboxing.runtimeconfig.dev.json
+C:\Users\Vishesh Kapoor\source\repos\unboxing\bin\Debug\netcoreapp3.1\unboxing.dll
+C:\Users\Vishesh Kapoor\source\repos\unboxing\bin\Debug\netcoreapp3.1\unboxing.pdb
+C:\Users\Vishesh Kapoor\source\repos\unboxing\obj\Debug\netcoreapp3.1\unboxing.AssemblyInfoInputs.cache
+C:\Users\Vishesh Kapoor\source\repos\unboxing\obj\Debug\netcoreapp3.1\unboxing.AssemblyInfo.cs
+C:\Users\Vishesh Kapoor\source\repos\unboxing\obj\Debug\netcoreapp3.1\unboxing.dll
+C:\Users\Vishesh Kapoor\source\repos\unboxing\obj\Debug\netcoreapp3.1\unboxing.pdb

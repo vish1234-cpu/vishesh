@@ -1,0 +1,11 @@
+C:\Users\Vishesh Kapoor\source\repos\stringreverse\bin\Debug\netcoreapp3.1\stringreverse.exe
+C:\Users\Vishesh Kapoor\source\repos\stringreverse\bin\Debug\netcoreapp3.1\stringreverse.deps.json
+C:\Users\Vishesh Kapoor\source\repos\stringreverse\bin\Debug\netcoreapp3.1\stringreverse.runtimeconfig.json
+C:\Users\Vishesh Kapoor\source\repos\stringreverse\bin\Debug\netcoreapp3.1\stringreverse.runtimeconfig.dev.json
+C:\Users\Vishesh Kapoor\source\repos\stringreverse\bin\Debug\netcoreapp3.1\stringreverse.dll
+C:\Users\Vishesh Kapoor\source\repos\stringreverse\bin\Debug\netcoreapp3.1\stringreverse.pdb
+C:\Users\Vishesh Kapoor\source\repos\stringreverse\obj\Debug\netcoreapp3.1\stringreverse.csprojAssemblyReference.cache
+C:\Users\Vishesh Kapoor\source\repos\stringreverse\obj\Debug\netcoreapp3.1\stringreverse.AssemblyInfoInputs.cache
+C:\Users\Vishesh Kapoor\source\repos\stringreverse\obj\Debug\netcoreapp3.1\stringreverse.AssemblyInfo.cs
+C:\Users\Vishesh Kapoor\source\repos\stringreverse\obj\Debug\netcoreapp3.1\stringreverse.dll
+C:\Users\Vishesh Kapoor\source\repos\stringreverse\obj\Debug\netcoreapp3.1\stringreverse.pdb

@@ -1,0 +1,11 @@
+C:\Users\Vishesh Kapoor\source\repos\instanceandstatic\obj\Debug\netcoreapp3.1\instanceandstatic.csprojAssemblyReference.cache
+C:\Users\Vishesh Kapoor\source\repos\instanceandstatic\obj\Debug\netcoreapp3.1\instanceandstatic.AssemblyInfoInputs.cache
+C:\Users\Vishesh Kapoor\source\repos\instanceandstatic\obj\Debug\netcoreapp3.1\instanceandstatic.AssemblyInfo.cs
+C:\Users\Vishesh Kapoor\source\repos\instanceandstatic\bin\Debug\netcoreapp3.1\instanceandstatic.exe
+C:\Users\Vishesh Kapoor\source\repos\instanceandstatic\bin\Debug\netcoreapp3.1\instanceandstatic.deps.json
+C:\Users\Vishesh Kapoor\source\repos\instanceandstatic\bin\Debug\netcoreapp3.1\instanceandstatic.runtimeconfig.json
+C:\Users\Vishesh Kapoor\source\repos\instanceandstatic\bin\Debug\netcoreapp3.1\instanceandstatic.runtimeconfig.dev.json
+C:\Users\Vishesh Kapoor\source\repos\instanceandstatic\bin\Debug\netcoreapp3.1\instanceandstatic.dll
+C:\Users\Vishesh Kapoor\source\repos\instanceandstatic\bin\Debug\netcoreapp3.1\instanceandstatic.pdb
+C:\Users\Vishesh Kapoor\source\repos\instanceandstatic\obj\Debug\netcoreapp3.1\instanceandstatic.dll
+C:\Users\Vishesh Kapoor\source\repos\instanceandstatic\obj\Debug\netcoreapp3.1\instanceandstatic.pdb
