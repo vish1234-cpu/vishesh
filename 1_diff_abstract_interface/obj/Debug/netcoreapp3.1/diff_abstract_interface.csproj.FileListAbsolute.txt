@@ -1,0 +1,11 @@
+C:\Users\Vishesh Kapoor\source\repos\diff_abstract_interface\bin\Debug\netcoreapp3.1\diff_abstract_interface.exe
+C:\Users\Vishesh Kapoor\source\repos\diff_abstract_interface\bin\Debug\netcoreapp3.1\diff_abstract_interface.deps.json
+C:\Users\Vishesh Kapoor\source\repos\diff_abstract_interface\bin\Debug\netcoreapp3.1\diff_abstract_interface.runtimeconfig.json
+C:\Users\Vishesh Kapoor\source\repos\diff_abstract_interface\bin\Debug\netcoreapp3.1\diff_abstract_interface.runtimeconfig.dev.json
+C:\Users\Vishesh Kapoor\source\repos\diff_abstract_interface\bin\Debug\netcoreapp3.1\diff_abstract_interface.dll
+C:\Users\Vishesh Kapoor\source\repos\diff_abstract_interface\bin\Debug\netcoreapp3.1\diff_abstract_interface.pdb
+C:\Users\Vishesh Kapoor\source\repos\diff_abstract_interface\obj\Debug\netcoreapp3.1\diff_abstract_interface.csprojAssemblyReference.cache
+C:\Users\Vishesh Kapoor\source\repos\diff_abstract_interface\obj\Debug\netcoreapp3.1\diff_abstract_interface.AssemblyInfoInputs.cache
+C:\Users\Vishesh Kapoor\source\repos\diff_abstract_interface\obj\Debug\netcoreapp3.1\diff_abstract_interface.AssemblyInfo.cs
+C:\Users\Vishesh Kapoor\source\repos\diff_abstract_interface\obj\Debug\netcoreapp3.1\diff_abstract_interface.dll
+C:\Users\Vishesh Kapoor\source\repos\diff_abstract_interface\obj\Debug\netcoreapp3.1\diff_abstract_interface.pdb

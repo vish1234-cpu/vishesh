@@ -1,0 +1,11 @@
+C:\Users\Vishesh Kapoor\source\repos\operator_overloading\bin\Debug\netcoreapp3.1\operator_overloading.exe
+C:\Users\Vishesh Kapoor\source\repos\operator_overloading\bin\Debug\netcoreapp3.1\operator_overloading.deps.json
+C:\Users\Vishesh Kapoor\source\repos\operator_overloading\bin\Debug\netcoreapp3.1\operator_overloading.runtimeconfig.json
+C:\Users\Vishesh Kapoor\source\repos\operator_overloading\bin\Debug\netcoreapp3.1\operator_overloading.runtimeconfig.dev.json
+C:\Users\Vishesh Kapoor\source\repos\operator_overloading\bin\Debug\netcoreapp3.1\operator_overloading.dll
+C:\Users\Vishesh Kapoor\source\repos\operator_overloading\bin\Debug\netcoreapp3.1\operator_overloading.pdb
+C:\Users\Vishesh Kapoor\source\repos\operator_overloading\obj\Debug\netcoreapp3.1\operator_overloading.csprojAssemblyReference.cache
+C:\Users\Vishesh Kapoor\source\repos\operator_overloading\obj\Debug\netcoreapp3.1\operator_overloading.AssemblyInfoInputs.cache
+C:\Users\Vishesh Kapoor\source\repos\operator_overloading\obj\Debug\netcoreapp3.1\operator_overloading.AssemblyInfo.cs
+C:\Users\Vishesh Kapoor\source\repos\operator_overloading\obj\Debug\netcoreapp3.1\operator_overloading.dll
+C:\Users\Vishesh Kapoor\source\repos\operator_overloading\obj\Debug\netcoreapp3.1\operator_overloading.pdb

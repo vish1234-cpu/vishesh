@@ -1,0 +1,11 @@
+C:\Users\Vishesh Kapoor\source\repos\overiding\bin\Debug\netcoreapp3.1\overiding.exe
+C:\Users\Vishesh Kapoor\source\repos\overiding\bin\Debug\netcoreapp3.1\overiding.deps.json
+C:\Users\Vishesh Kapoor\source\repos\overiding\bin\Debug\netcoreapp3.1\overiding.runtimeconfig.json
+C:\Users\Vishesh Kapoor\source\repos\overiding\bin\Debug\netcoreapp3.1\overiding.runtimeconfig.dev.json
+C:\Users\Vishesh Kapoor\source\repos\overiding\bin\Debug\netcoreapp3.1\overiding.dll
+C:\Users\Vishesh Kapoor\source\repos\overiding\bin\Debug\netcoreapp3.1\overiding.pdb
+C:\Users\Vishesh Kapoor\source\repos\overiding\obj\Debug\netcoreapp3.1\overiding.csprojAssemblyReference.cache
+C:\Users\Vishesh Kapoor\source\repos\overiding\obj\Debug\netcoreapp3.1\overiding.AssemblyInfoInputs.cache
+C:\Users\Vishesh Kapoor\source\repos\overiding\obj\Debug\netcoreapp3.1\overiding.AssemblyInfo.cs
+C:\Users\Vishesh Kapoor\source\repos\overiding\obj\Debug\netcoreapp3.1\overiding.dll
+C:\Users\Vishesh Kapoor\source\repos\overiding\obj\Debug\netcoreapp3.1\overiding.pdb

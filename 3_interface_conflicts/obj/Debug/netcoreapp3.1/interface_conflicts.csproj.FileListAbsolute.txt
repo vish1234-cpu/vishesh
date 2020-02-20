@@ -1,0 +1,11 @@
+C:\Users\Vishesh Kapoor\source\repos\interface_conflicts\bin\Debug\netcoreapp3.1\interface_conflicts.exe
+C:\Users\Vishesh Kapoor\source\repos\interface_conflicts\bin\Debug\netcoreapp3.1\interface_conflicts.deps.json
+C:\Users\Vishesh Kapoor\source\repos\interface_conflicts\bin\Debug\netcoreapp3.1\interface_conflicts.runtimeconfig.json
+C:\Users\Vishesh Kapoor\source\repos\interface_conflicts\bin\Debug\netcoreapp3.1\interface_conflicts.runtimeconfig.dev.json
+C:\Users\Vishesh Kapoor\source\repos\interface_conflicts\bin\Debug\netcoreapp3.1\interface_conflicts.dll
+C:\Users\Vishesh Kapoor\source\repos\interface_conflicts\bin\Debug\netcoreapp3.1\interface_conflicts.pdb
+C:\Users\Vishesh Kapoor\source\repos\interface_conflicts\obj\Debug\netcoreapp3.1\interface_conflicts.csprojAssemblyReference.cache
+C:\Users\Vishesh Kapoor\source\repos\interface_conflicts\obj\Debug\netcoreapp3.1\interface_conflicts.AssemblyInfoInputs.cache
+C:\Users\Vishesh Kapoor\source\repos\interface_conflicts\obj\Debug\netcoreapp3.1\interface_conflicts.AssemblyInfo.cs
+C:\Users\Vishesh Kapoor\source\repos\interface_conflicts\obj\Debug\netcoreapp3.1\interface_conflicts.dll
+C:\Users\Vishesh Kapoor\source\repos\interface_conflicts\obj\Debug\netcoreapp3.1\interface_conflicts.pdb
