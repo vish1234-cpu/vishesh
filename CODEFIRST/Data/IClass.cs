@@ -11,7 +11,7 @@ namespace CODEFIRST.Data
         public IEnumerable<Customers> GETDATA();
         public IEnumerable<Customers> GETDATAID(int id);
         public bool INSERTDATA(Orders orders);
-        public bool UPDATEDATA(Orders orders,int id);    
+        public bool UPDATEDATA(Orders orders,int id);     
         public bool DELETEDATA(Orders orders);
        
     }

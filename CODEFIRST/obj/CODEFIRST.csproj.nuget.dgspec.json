@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vishesh Kapoor\\source\\repos\\CODEFIRST\\CODEFIRST.csproj": {}
+    "C:\\Users\\Vishesh Kapoor\\Desktop\\CODEFIRST\\CODEFIRST\\CODEFIRST.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vishesh Kapoor\\source\\repos\\CODEFIRST\\CODEFIRST.csproj": {
+    "C:\\Users\\Vishesh Kapoor\\Desktop\\CODEFIRST\\CODEFIRST\\CODEFIRST.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vishesh Kapoor\\source\\repos\\CODEFIRST\\CODEFIRST.csproj",
+        "projectUniqueName": "C:\\Users\\Vishesh Kapoor\\Desktop\\CODEFIRST\\CODEFIRST\\CODEFIRST.csproj",
         "projectName": "CODEFIRST",
-        "projectPath": "C:\\Users\\Vishesh Kapoor\\source\\repos\\CODEFIRST\\CODEFIRST.csproj",
+        "projectPath": "C:\\Users\\Vishesh Kapoor\\Desktop\\CODEFIRST\\CODEFIRST\\CODEFIRST.csproj",
         "packagesPath": "C:\\Users\\Vishesh Kapoor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vishesh Kapoor\\source\\repos\\CODEFIRST\\obj\\",
+        "outputPath": "C:\\Users\\Vishesh Kapoor\\Desktop\\CODEFIRST\\CODEFIRST\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vishesh Kapoor\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -9,6 +9,14 @@ namespace CODEFIRST.Data
 {
     public class Class :IClass
     {
+        public ClassContext _con; // dependency injection for my ClassContext() 
+
+        public Class(ClassContext con)
+        {
+            _con = con; 
+        }
+
+
         // <summary>
         /// 
         /// GET METHOD  TO GET CUSTOMER AND ORDER DETAILS 
@@ -16,10 +24,8 @@ namespace CODEFIRST.Data
         public IEnumerable<Customers> GETDATA()
         {
             try
-            {
-                var context = new ClassContext();
-
-                var cus = (from e in context.Customers.Include("Orders") select e); 
+            { 
+                var cus = (from e in _con.Customers.Include("Orders") select e); 
                 return cus.ToList();
             }
 
@@ -38,8 +44,7 @@ namespace CODEFIRST.Data
         {
             try
             {
-                var context = new ClassContext();
-                var cus = (from c in context.Customers.Where(c => c.CusId == id).Include(s => s.Orders).ThenInclude(s => s.Product) select c);
+                var cus = (from c in _con.Customers.Where(c => c.CusId == id).Include(s => s.Orders).ThenInclude(s => s.Product) select c);
                 return cus.ToList();
             }
 
@@ -75,14 +80,14 @@ namespace CODEFIRST.Data
 
         public bool INSERTDATA(Orders orders) 
         {
-            var context = new ClassContext();
+            
             try
             {
 
-                context.Orders.Add(orders);
-                context.Customers.Add(orders.Cus);
-                context.Products.Add(orders.Product);
-                context.SaveChanges();
+                _con.Orders.Add(orders);
+                _con.Customers.Add(orders.Cus);
+                _con.Products.Add(orders.Product);
+                _con.SaveChanges();
                 return true; 
 
             }
@@ -99,12 +104,12 @@ namespace CODEFIRST.Data
         /// 
         public bool UPDATEDATA(Orders orders,int id)   
         {
-            var context = new ClassContext();
-            var result = context.Customers.FirstOrDefault(i => i.CusId == id);  
-            var result1 = context.Orders.Add(orders);  
-            context.SaveChanges(); 
-            return true;
-
+            var result = _con.Orders.Include(c => c.Cus).FirstOrDefault(s=>s.OrderId==id); 
+            result.Cus.CusId = (int)orders.CusId;
+            result.OrderId = orders.OrderId; 
+            _con.Entry(result).State = EntityState.Modified;  
+            _con.SaveChanges();
+            return true; 
         }
 
 
@@ -126,21 +131,21 @@ namespace CODEFIRST.Data
         {
             try
             {
-                var context = new ClassContext();  
+                 
 
-                var result = context.Customers.FirstOrDefault(i => i.CusId == orders.CusId);
-                context.Customers.Remove(result);
+                var result = _con.Customers.FirstOrDefault(i => i.CusId == orders.CusId);
+                _con.Customers.Remove(result);
 
-                var result1 = context.Orders.FirstOrDefault(i => i.OrderId == orders.OrderId);
-                context.Orders.Remove(result1);
+                var result1 = _con.Orders.FirstOrDefault(i => i.OrderId == orders.OrderId);
+                _con.Orders.Remove(result1);
 
-                var result2 = context.Products.FirstOrDefault(i => i.ProductId == orders.ProductId);
-                context.Products.Remove(result2);
-
-
+                var result2 = _con.Products.FirstOrDefault(i => i.ProductId == orders.ProductId);
+                _con.Products.Remove(result2);
 
 
-                context.SaveChanges();
+
+
+                _con.SaveChanges();
 
                 return true; 
 

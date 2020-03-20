@@ -95,7 +95,7 @@ namespace CODEFIRST.Controllers
         /// 
         [HttpPut("{id}")] 
 
-        public IActionResult UPDATEDATA(Orders orders,int id) 
+        public IActionResult UPDATEDATA(Orders orders,int id)  
         {
             var re = _data.UPDATEDATA(orders,id); 
             return Ok(re); 
