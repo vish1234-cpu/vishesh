@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewBag.Title = "Differnce";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<!Doctype html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container  pt-3 p-3 my-3 bg-light text-danger">
+            <h3>USE OF Global.asax FILE</h3>
+            <br />
+            <p>
+                Global.asax file is the first file that runs whenever
+                <br />
+                we run our mvc application. we can register varioud routes,bundles,
+                <br />
+                and filters in our Global.asax file in the Application_Start method.
+                <br />
+            </p>
+            <br />
+            <br />
+            <h3>DIFFERENCE BETWEEN Web.config in views and Web.config global</h3>
+            <br />
+            <table>
+                <tr>
+                    <th>Web.config(Views)</th>
+                    <th>Web.config(Global)</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>
+                                web.config file in views folder is mainly
+                                for the razor pages. Any namespaces which are
+                                used in all the views can be registerd inside
+                                add namespace of web.config file.
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                web.config global file is a file that holds the
+                                overall configuration of the project which also
+                                includes the connection string of the database.
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <br />
+            <br />
+            <a href="@Url.Action("Questions", "Main" )">Go BACK TO QUESTIONS</a>
+            <br />
+
+        </div>
+    </div>
+</body>
+</html>

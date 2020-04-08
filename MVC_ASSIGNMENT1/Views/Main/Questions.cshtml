@@ -1,0 +1,71 @@
+﻿
+@{
+    ViewBag.Title = "Questions";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+    <link href="~/Content/bootstrap.css" rel="stylesheet" /> 
+<!Doctype html>
+<html>
+<head>
+    <title>Questions</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container pt-3 p-3 my-3 bg-light text-danger ">
+            <h1>Question List</h1>
+            &nbsp;
+            <div class="card" style="width: 18rem;">
+                <div class="card-body  bg-dark text-white">
+                    <h5 class="card-title">Ques1</h5>
+                    <p class="card-text">
+                        Explain MVC and the benefit of MVC.
+                    </p>
+                    @Html.ActionLink("Click Here", "AboutMVC", "Main", htmlAttributes: new { @class = "btn btn-primary", @role = "button" })
+                </div>
+            </div>
+            &nbsp;
+            <div class="card" style="width: 18rem;">
+                <div class="card-body  bg-dark text-white">
+                    <h5 class="card-title">Ques2</h5>
+                    <p class="card-text">
+                        Explain MVC Life Cycle.
+                    </p>
+                    @Html.ActionLink("Click Here", "MVCLifeCycle", "Main", htmlAttributes: new { @class = "btn btn-primary", @role = "button" })
+                </div>
+            </div>
+            &nbsp;
+            <div class="card" style="width: 18rem;">
+                @*<img src="..." class="card-img-top" alt="...">*@
+                <div class="card-body  bg-dark text-white">
+                    <h5 class="card-title">Ques3</h5>
+                    <p class="card-text">
+                        How to pass data from Controller to view and view to the controller with Example.
+                    </p>
+                    @Html.ActionLink("Click Here", "DataPass", "Main", htmlAttributes: new { @class = "btn btn-primary", @role = "button" })
+                </div>
+            </div>
+            &nbsp;
+            <div class="card" style="width: 18rem;">
+                <div class="card-body  bg-dark text-white">
+                    <h5 class="card-title">Ques4</h5>
+                    <p class="card-text">
+                        Why we use App_Start, App_Data and Shared Folder.
+                    </p>
+                    @Html.ActionLink("Click Here", "Use", "Main1", htmlAttributes: new { @class = "btn btn-primary", @role = "button" })
+                </div>
+            </div>
+            &nbsp;
+            <div class="card" style="width: 18rem;">
+                <div class="card-body  bg-dark text-white">
+                    <h5 class="card-title">Ques5</h5>
+                    <p class="card-text">
+                        Use of Global. Asax and difference b/w global Web config and View Web Config.
+                    </p>
+                    @Html.ActionLink("Click Here", "Differnce", "Main1", htmlAttributes: new { @class = "btn btn-primary", @role = "button" })
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

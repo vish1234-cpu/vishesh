@@ -1,0 +1,48 @@
+﻿@model IEnumerable<MVC_ASSIGNMENT1.Models.Entity.Student>
+@{
+    ViewBag.Title = "GetAllStudents";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml"; 
+}
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+
+
+@*passing data from controller to view*@ 
+
+
+
+<!Doctype html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <h3>LIST OF STUDENTS</h3> 
+    <div class="container pt-3  p-3 my-3 bg-dark text-white">
+        <table class="table table-bordered" style="table-layout:auto;color:white">
+            <tr>
+                <th>ID</th>
+                <th>NAME</th>
+                <th>GENDER</th>
+                <th>EMAIL ADDRESS</th>
+                <th>ADDRESS</th>
+            </tr>
+            <tbody>
+                @foreach (var item in ViewBag.list)
+                {
+                    <tr>
+                        <td>@item.StudentId</td>
+                        <td>@item.StudentName</td>
+                        <td>@item.Gender</td>
+                        <td>@item.Email</td>
+                        <td>@item.Address</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <br />
+        <a href="@Url.Action("Questions", "Main" )">Go BACK TO QUESTIONS</a>
+
+    </div>
+</body>
+</html>
+

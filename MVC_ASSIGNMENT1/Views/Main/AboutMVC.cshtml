@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewBag.Title = "AboutMVC";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+<!Doctype html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container  pt-3 p-3 my-3 bg-light text-danger">
+            <h1> MVC and the benefit of MVC :</h1>
+            &nbsp;
+            <h4>MVC</h4>
+            &nbsp;
+            <p>
+                MVC stand for Model View controller.It is an architectural
+                <br />
+                pattern that seperates the application into above three components.
+                <br />
+                It is the most frequently used web devlopment application and allows us
+                <br />
+                to make scalable and extensible applications.
+                <br />
+            </p>
+            &nbsp;
+            <h4>Benifits Of MVC :</h4>
+            &nbsp;
+            <p>
+                # The Modification Never Affects The Entire Model.
+                <br />
+                # Ideal for developing large size web application.
+                <br />
+                # Offers The Multiple Views.
+                <br />
+                # Faster Web Application Development Process.
+                <br />
+            </p>
+            <br />
+            <a href="@Url.Action("Questions", "Main" )">Go BACK TO QUESTIONS</a>
+
+        </div>
+    </div>
+</body>
+</html>

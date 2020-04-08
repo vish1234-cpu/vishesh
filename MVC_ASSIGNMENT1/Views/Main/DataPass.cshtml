@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "DataPass";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<!Doctype html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container  pt-3 p-3 my-3 bg-light text-danger">
+            <h3>Example of Passing data from Controller to view</h3>
+            <br />
+            <h4> CLICK HERE TO SEE STUDENT LIST(CONTROLLER TO VIEW USING VIEW BAG) </h4>
+            <br />
+            @Html.ActionLink("Click", "GetAllStudents", "Main", htmlAttributes: new { @class = "btn btn-primary", @role = "button" })
+            <br />
+            <br />
+            <a href="@Url.Action("Questions", "Main" )">Go BACK TO QUESTIONS</a>
+        </div> 
+    </div>
+</body>
+</html>

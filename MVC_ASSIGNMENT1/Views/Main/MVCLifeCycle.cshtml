@@ -1,0 +1,83 @@
+﻿
+@{
+    ViewBag.Title = "MVCLifeCycle";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<!Doctype html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container  pt-3 p-3 my-3 bg-light text-danger">
+            <h1>MVC LIFECYCLE :</h1>
+            <br />
+            <img src="~/Images/mvclifecycle.png" />
+            <br />
+            <p>
+                <h5>  # Routing </h5>
+
+                Routing is basically a pattern matching system.
+                <br />
+                and at what time what action method should be called
+                <br />
+                is done through routing. We can gives our own routing in
+                <br />
+                RouteConfig file in AppStart.
+                <br />
+                <br />
+                <h5>  # Controller Initialization</h5>
+                Controller Initialization means that a controller is added in
+                <br />
+                the project so that all the action methods can be created and
+                <br />
+                same can be called through the controller.
+                <br />
+                <br />
+                <h5>  # Action Execution</h5>
+                After Routing and controller here comes the action execution
+                <br />
+                which in simple terms means that the execution of action method.
+                <br />
+                action method is always given after the controller with its http verb.
+                <br />
+                <br />
+                <h5>  # Result Execution</h5>
+                A typical action method might receive user input,
+                <br />
+                prepare the appropriate response data, and then execute
+                <br />
+                the result by returning a result type. The built-in result
+                <br />
+                types that can be executed include the following: ViewResult
+                <br />
+                (which renders a view and is the most-often used result type),
+                <br />
+                RedirectToRouteResult, RedirectResult, ContentResult, JsonResult,
+                <br />
+                and EmptyResult.
+                <br />
+                <br />
+                <h5>  # View</h5>
+                The MVC View is a standard HTML page that may contain script.
+                <br />
+                It is used to create web pages for the application. Unlike ASP.NET Web Pages,
+                <br />
+                MVC Views are mapped to the action and then controller renders the view to the browser.
+                <br />
+                MVC uses Razor view engine.
+
+
+                <br />
+                <br />
+            </p>
+            <br />
+            <a href="@Url.Action("Questions", "Main" )">Go BACK TO QUESTIONS</a>
+
+        </div>
+    </div>
+</body>
+</html>

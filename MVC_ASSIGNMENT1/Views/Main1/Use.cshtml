@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewBag.Title = "Use";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<!Doctype html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container  pt-3 p-3 my-3 bg-light text-danger">
+            <h1>USES OF APP_START,APP_DATA,SHARED FOLDER</h1>
+            <br />
+            <h3>APP_START</h3>
+            <p>
+                APP_START folder is very importent folder in mvc.
+                <br />
+                In app_start folder we have RouteConfig.cs file which
+                <br />
+                responsible for registering routes. while we can create bundleconfig,
+                <br />
+                filter config also in APP_START folder.
+            </p>
+            <br />
+            <br />
+            <h3>APP_DATA</h3>
+            <p>
+                App_Data is used to store file that can be used as database
+                <br />
+                files (. mdf and xml files). App_Data folder is used by ASP.NET
+                <br />
+                application for storing ASP.NET application local database.
+                <br />
+                Developers can also use this folder for storing data for their ASP.NET Application.
+            </p>
+            <br />
+            <br />
+            <h3>SHARED FOLDER</h3>
+            <p>
+                Shared folder in mvc is used to keep those razor pages
+                <br />
+                which are shared by the other views also.All the reusable
+                <br />
+                files or cshtml pages are kept inside the shared folder in
+                <br />
+                order to maintain a good folder architecture.
+                <br />
+            </p>
+            <br />
+            <br />
+            <a href="@Url.Action("Questions", "Main" )">Go BACK TO QUESTIONS</a>
+
+        </div>
+    </div>
+</body>
+</html>
