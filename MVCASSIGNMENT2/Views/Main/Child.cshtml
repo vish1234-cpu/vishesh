@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "Child";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+<!Doctype html>
+<html>
+<head>
+    <title></title>
+    @Styles.Render("~/bundles/bootstrap") 
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container  pt-3 p-3 my-3 bg-light text-dark">
+            <h3>
+                NON ACTION METHOD BELOW,CLICK BELOW
+                <br />
+                IT WILL THROW AN ERROR AS NON ACTION METHOD
+                <br />
+                CANNOT INVOKED BY URL REQUEST. 
+            </h3>
+            <br />
+            @Html.ActionLink("Click Me", "NonAction", "Main", htmlAttributes: new { @class = "btn btn-primary", @role = "button" })
+            <br />
+            <br />
+            <h3>CHILD ACTION METHOD</h3>
+            <br />
+            @{
+                Html.RenderAction("ChildAction");  
+            } 
+
+        </div>
+    </div>
+</body>
+</html>

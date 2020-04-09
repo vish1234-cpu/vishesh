@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "Bundles";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+<!Doctype html>
+<html>
+<head>
+    <title></title>
+    @Styles.Render("~/bundles/bootstrap") 
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container container container  pt-3 p-3 my-3 bg-light text-dark">
+            <h2>BUNDLES</h2>
+            <br />
+            <p>
+                Bundling allow us to load the bunch of
+                <br /> 
+                static files from the server into one http request.
+            </p>
+            <br />
+            <h2>BundleConfig.cs</h2>
+            <br />
+            <p>
+                BundleConfig.cs is a normal class in which we add our bundles for 
+                <br />
+                minification. There are two types of bundles we add:
+                <br /> 
+                1) Style Bundles: For adding .css files (styling sheets only) 
+                <br />
+                2) Script Bundles : for adding .js files (scripts only)
+                <br /> 
+            </p>
+            <br />
+            <p>
+                In order to see the practical implementation 
+                <br />
+                of bundles go to App_start then BundleConfig.cs. 
+                <br /> 
+            </p>
+        </div>
+    </div>
+</body>
+</html>

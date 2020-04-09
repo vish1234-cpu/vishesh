@@ -1,0 +1,72 @@
+﻿
+@{
+    ViewBag.Title = "Questions";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+<!Doctype html>
+<html>
+<head>
+    <title>Questions</title>
+    @Styles.Render("~/bundles/bootstrap")
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container pt-3 p-3 my-3 bg-light text-danger ">
+            <h1>Question List</h1>
+            &nbsp;
+            <div class="card" style="width: 18rem;">
+                <div class="card-body  bg-success text-white">
+                    <h5 class="card-title">Ques1</h5>
+                    <p class="card-text">
+                        Explain RenderPartial, Partial and Render Action with examples.
+                    </p>
+                    @Html.ActionLink("Click Here", "PartialTypes", "Main", htmlAttributes: new { @class = "btn btn-primary", @role = "button" })
+                </div>
+            </div>
+            &nbsp;
+            <div class="card" style="width: 18rem;">
+                <div class="card-body  bg-success text-white">
+                    <h5 class="card-title">Ques2</h5>
+                    <p class="card-text">
+                        Explain NoAction, ChildActionOnly with example. (P)
+                    </p>
+                    @Html.ActionLink("Click Here", "Child", "Main", htmlAttributes: new { @class = "btn btn-primary", @role = "button" })
+                </div>
+            </div>
+            &nbsp;
+            <div class="card" style="width: 18rem;">
+                <div class="card-body  bg-success text-white">
+                    <h5 class="card-title">Ques3</h5>
+                    <p class="card-text">
+                        Explain Render Section and CShtml function with examples.Why do we use the “Bind'' attribute in the action parameter?
+                    </p>
+                    @Html.ActionLink("Click Here", "RenderSection", "Main", htmlAttributes: new { @class = "btn btn-primary", @role = "button" })
+                </div>
+            </div>
+            &nbsp;
+            <div class="card" style="width: 18rem;">
+                <div class="card-body  bg-success text-white">
+                    <h5 class="card-title">Ques4</h5>
+                    <p class="card-text">
+                        Explain Layout and how to set layout into view from Controller, View or globally
+                    </p>
+                    @Html.ActionLink("Click Here", "Layout", "Main1", htmlAttributes: new { @class = "btn btn-primary", @role = "button" })
+                </div>
+            </div>
+            &nbsp;
+            <div class="card" style="width: 18rem;">
+                <div class="card-body  bg-success text-white"> 
+                    <h5 class="card-title">Ques5</h5>
+                    <p class="card-text">
+                        What is bundling and how to use bundling in view.
+                    </p>
+                    @Html.ActionLink("Click Here", "Bundles", "Main1", htmlAttributes: new { @class = "btn btn-primary", @role = "button" })
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

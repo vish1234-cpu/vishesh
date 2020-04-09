@@ -1,0 +1,67 @@
+﻿@model MVCASSIGNMENT2.Models.Entity.Employee 
+@{
+  //  ViewBag.Title = "EmployeeResgistrationForm";
+   // Layout = "~/Views/Shared/_LayoutPage.cshtml"; 
+}
+
+@* THIS IS A PARTIAL VIEW  *@ 
+<!Doctype html>
+<html>
+<head>
+    <title></title>
+    @Styles.Render("~/bundles/bootstrap")
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container  pt-3 p-3 my-3 bg-light text-dark">
+            <h2>Employee Registration Form</h2>
+            &nbsp;
+            @using (Html.BeginForm("InsertEmployee", "Main", FormMethod.Post))  
+            {
+        <form class="form-control">
+            <div class="editor-label">
+                @Html.LabelFor(model => model.EmployeeFirstName)
+            </div>
+            <br />
+            <div class="editor-field">
+                @Html.EditorFor(model => model.EmployeeFirstName)
+            </div>
+            <br />
+            <div class="editor-label">
+                @Html.LabelFor(model => model.EmployeeLastName)
+            </div>
+            <br />
+            <div class="editor-field">
+                @Html.EditorFor(model => model.EmployeeLastName)
+            </div>
+            <br />
+            <div class="editor-label">
+                @Html.LabelFor(model => model.EmployeeGender)
+            </div>
+            <br />
+            <div class="editor-field">
+                @Html.EditorFor(model => model.EmployeeGender)
+            </div>
+            <br />
+            <div class="editor-label">
+                @Html.LabelFor(model => model.EmployeeAddress)
+            </div>
+            <br />
+            <div class="editor-field">
+                @Html.EditorFor(model => model.EmployeeAddress) 
+            </div>
+            <br />
+
+            <div>
+                <p>
+                    <input style="background-color:blue;color:white" type="submit" value="Submit" /> 
+                </p>
+            </div>
+            
+        </form>
+            }
+
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewBag.Title = "RenderSection";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+<!Doctype html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container pt-3 p-3 my-3 bg-light text-dark">
+            <h1>CSHTML FUNCTIONS WITH EXAMPLE</h1>
+            <p>
+                Functions which are created inside the razor pages
+                <br />
+                using the razor syntax are called as cshtml functions.
+                <br />
+            </p>
+            <br />
+            <br />
+            <h4>BELOW ARE THE FUNCTIONS:</h4> 
+            <br />
+            @{ 
+                var text = "";
+                if(DateTime.Now.Hour<12) 
+                {
+                    text = "Hello! Good Morning";
+                }
+                else
+                {
+                    text = "Hello! Good Evening"; 
+                }
+            }
+            <b>@text</b>
+            <br />
+            @{ 
+                int i=4;
+                int j=8;
+                int addition;
+
+                addition = i + j;
+            }
+            <b>@addition</b>
+            <br />
+            <br />
+            <h1>RENDER SECTION</h1>
+            <br />
+            @section MySection { 
+                <h5>Hello I Am Render Section Present in Layout!!
+                <br />
+                Go and Check out in layout. 
+                </h5>
+                }
+        </div>
+    </div>
+</body>
+</html>

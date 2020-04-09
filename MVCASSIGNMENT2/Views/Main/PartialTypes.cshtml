@@ -1,0 +1,72 @@
+﻿@model MVCASSIGNMENT2.Models.Entity.Employee 
+@{
+    ViewBag.Title = "PartialTypes";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+<div class="container-fluid">
+    <div class="container pt-3 p-3 my-3 bg-light text-dark">
+        <h1>BELOW METHODS ARE CALLING THE SAME PARTIAL VIEW
+        <br />
+        FILL DETAILS AND CLICK ON SUBMIT TO SEE THE DATA YOU HAVE ENTERED. 
+        </h1>
+        <br />
+        <h3> HTML Render METHOD</h3>     @*this form is created as partial view.*@
+        <p>
+            it produces a fragment of HTML,
+            <br />
+            rather than a full Html document.
+            <br />
+            Partial helper return MVCHtmlString
+            <br />
+            and renders the partial view as an
+            <br />
+            Html-encoded string.
+            <br />
+        </p>
+        <br />
+        @Html.Partial("EmployeeResgistrationForm")
+        <br />
+
+
+        <h3>THIS IS HTML RenderPartial METHOD</h3>
+        <p>
+            it doesnot return HTML markup like
+            <br />
+            most other helper methods, instead
+            <br />
+            it writes content directly to the
+            <br />
+            response stream, which is why we must
+            <br />
+            call it like a complete line of
+            <br />
+            C# using a semicolon (;).
+            <br />
+        </p>
+        <br />
+        @{
+            Html.RenderPartial("EmployeeResgistrationForm");
+        }
+        <br />
+
+        <h3>Render Action</h3>
+        <p>
+            This is also same as Html.Action but
+            <br />
+            main difference is that it renders result
+            <br />
+            directly to response that’s why it is more
+            <br />
+            efficient if the action returns a large amount
+            <br />
+            of HTML over Html Action.
+            <br />
+        </p>
+        <br />
+        @{
+            Html.RenderAction("EmployeeResgistrationForm");  
+        }
+
+
+    </div>
+</div>

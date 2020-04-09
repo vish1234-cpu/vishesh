@@ -1,0 +1,44 @@
+﻿@model IEnumerable<MVCASSIGNMENT2.Models.Entity.Employee>
+@{
+    ViewBag.Title = "GetList"; 
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+<!Doctype html>
+<html>
+<head>
+    <title></title>
+    @Styles.Render("~/bundles/bootstrap")
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container pt-3 p-3 my-3 bg-light text-dark">
+            <h1>LIST OF EMPLOYEES WHO GOT REGISTERED THEMSELVES:</h1>
+            &nbsp;
+            <table  class="table table-bordered" style="table-layout:auto"> 
+                <tr>
+                    <th>Id</th>
+                    <th>FirstName </th>
+                    <th>LastName</th>
+                    <th>Gender </th>
+                    <th>Address </th> 
+                </tr>
+                <tbody>
+
+                    @foreach (var item in Model)
+                    {
+                    <tr>
+                        <td>@item.EmployeeId</td>
+                        <td>@item.EmployeeFirstName</td>
+                        <td>@item.EmployeeLastName</td>
+                        <td>@item.EmployeeGender</td>
+                        <td>@item.EmployeeAddress</td>
+                    </tr>
+                            }
+                       
+                    </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
