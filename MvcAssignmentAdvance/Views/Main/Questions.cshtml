@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "Questions";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+<!Doctype html>
+<html>
+<head>
+    <title>Questions</title>
+    @Styles.Render("~/bundles/bootstrap")
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container pt-3 p-3 my-3 bg-light text-danger ">
+            <h1>Question List</h1>
+            &nbsp;
+            <div class="card" style="width: 18rem;">
+                <div class="card-body  bg-success text-white">
+                    <h5 class="card-title">Theory Question</h5> 
+                    <p class="card-text">
+                        What is the use of viewmodel in mvc and  how to pass model viw to another partial view. 
+                    </p>
+                    @Html.ActionLink("Click Here", "ViewModel", "Main", htmlAttributes: new { @class = "btn btn-primary", @role = "button" })
+                </div>
+            </div>
+            &nbsp;
+            <div class="card" style="width: 18rem;">
+                <div class="card-body  bg-success text-white">
+                    <h5 class="card-title">Theory Question</h5> 
+                    <p class="card-text">
+                        Explain different types of filters.
+                    </p>
+                    @Html.ActionLink("Click Here", "Filters", "Main", htmlAttributes: new { @class = "btn btn-primary", @role = "button" })
+                </div>
+            </div>
+            &nbsp;
+            
+        </div>
+    </div>
+</body>
+</html>
+

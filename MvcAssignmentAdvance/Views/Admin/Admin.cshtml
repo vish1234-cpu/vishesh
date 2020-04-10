@@ -1,0 +1,59 @@
+﻿@model MvcAssignmentAdvance.Models.Entity.Admin
+@{
+    ViewBag.Title = "Admin";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+
+<!Doctype Html>
+<html>
+<head>
+    <title></title>
+    @Styles.Render("~/bundles/bootstrap")
+
+</head>
+<body>
+    <div class="container-fluid">  
+        &nbsp;
+
+        <div class="container pt-3  p-3 my-3 bg-dark text-white">
+            <h4>Admin SignUp</h4>
+            <br /> 
+            @using (Html.BeginForm("Admin","Admin"))  
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(false, "This SignUp Is Strictly For Admins!!!!")   
+                <div class="form-group">
+                    @Html.LabelFor(m => m.UserName)
+                    @Html.TextBoxFor(m => m.UserName, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.UserName) 
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.PassKey)
+                    @Html.TextBoxFor(m => m.PassKey, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.PassKey) 
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Submit" />
+                </div>
+
+                <div>
+                    <h4>GO BACK TO:</h4>
+                    @Html.ActionLink("Home", "Home", "Main")
+                    &nbsp;
+                    @Html.ActionLink("Questions", "Questions", "Main")
+                    &nbsp;
+                    @Html.ActionLink("Signup", "SignUp", "Main")
+                    &nbsp;
+
+
+                </div>
+
+            }
+
+
+        </div>
+    </div>
+</body>
+</html>
+

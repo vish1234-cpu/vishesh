@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/bundles/bootstrap"); 
+</head>
+<body>
+    <div class="navbar navbar-expand-sm bg-secondary text-black-50 navbar-dark font-weight-bolder" style="font-family:Verdana">
+        <div class="container">
+            <ul class="navbar nav mr-auto">
+                <li class="navbar-brand">
+                    <img src="~/IMAGES/mvcnew.png" height="110" width="110" style="border-radius:50px 50px 50px 50px;margin-left:-100px" />
+                </li>
+            </ul>
+            &nbsp;
+            <ul class="navbar nav mr-auto" style="margin-left:-300px;font-size:x-large;color:white">
+                <li>
+                    @Html.ActionLink("MVC ASSIGNMENT", "Home")
+
+                </li>
+            </ul>
+
+
+            <ul class="navbar-nav ml-auto" style="font-size:large">
+                <li class="nav-item active">
+                    @Html.ActionLink("Home", "Home")
+                </li>
+                &nbsp;
+                &nbsp;
+                <li class="nav-item">
+                    @Html.ActionLink("Questions", "Questions")
+                </li>
+                &nbsp;
+                &nbsp;
+                <li class="nav-item">
+                    @Html.ActionLink("SignUp", "SignUp") 
+                </li>
+               
+
+            </ul>
+
+        </div>
+    </div>
+    <div>
+        @RenderBody()
+        <hr />
+        <footer class="page-footer font-small black">
+            <div class="footer-copyright text-center py-3">
+                Submit By : Vishesh Kapoor
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

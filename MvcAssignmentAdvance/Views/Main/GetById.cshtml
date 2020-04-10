@@ -1,0 +1,37 @@
+﻿@model IEnumerable<MvcAssignmentAdvance.Models.Entity.Student>  
+@{
+    ViewBag.Title = "GetById";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+<!Doctype html>
+<html>
+<head>
+    <title></title>
+    @Styles.Render("~/bundles/bootstrap")
+</head>
+<body>
+    <div class="container-fluid">
+            <div class="container pt-3 p-3 my-3 bg-light text-dark">
+               <div class="card-deck">
+        @foreach (var emp in Model)
+        {
+            <div class="m-3" style="min-width:18rem; max-width:30.5%">
+                <div class="card-header">
+                    <h3 style="color:black">@emp.FirstName @emp.LastName </h3> 
+                </div>
+                <img class="card-img-top" src="~/IMAGES/admin.jpg" style="width:50px;height:50px;border-radius:30px 30px 30px 30px" />
+                <div class="card-body">
+                    <h5>@emp.DOB</h5>
+                    <h5>@emp.Email</h5>
+                    <h5>@emp.Gender</h5>
+                    <h5>@emp.Address</h5>
+                </div>
+            </div>
+        }
+    </div>
+            </div>
+        </div>
+    
+</body>
+</html>

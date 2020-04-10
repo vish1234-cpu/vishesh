@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "SignUp";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+<!Doctype Html>
+<html>
+<head>
+    <title></title>
+    @Styles.Render("~/bundles/bootstrap")
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container pt-3 p-3 my-3 bg-light text-dark"> 
+            <h3>SignUp As</h3>
+            &nbsp;
+            <div class="card" style="width: 15rem;height:15rem">
+                <img src="~/IMAGES/admin.jpg" class="card-img-top" alt="" style="height:100px;width:100px;border-radius:50px 50px 50px 50px">
+                <div class="card-body">
+                    <h5 class="card-title">Sign Up As Admin</h5>
+                    @Html.ActionLink("Admin", "Admin", "Admin", htmlAttributes: new { @class = "btn btn-primary", @role = "button" })
+                </div>
+            </div>
+            &nbsp;
+
+        </div>
+    </div>
+</body>
+</html>
+
+
