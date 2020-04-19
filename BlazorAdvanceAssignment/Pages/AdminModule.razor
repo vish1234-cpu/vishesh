@@ -1,0 +1,36 @@
+﻿@page "/adminmodule"
+<h3 style="color:blue">Admin Module</h3>
+<br /> 
+<div class="container-fluid">
+    <div class="container">
+        <h2 style="color:gold">Total Registerd Students</h2>
+       <table class="table table-bordered">
+           <tr>
+               <th>Id</th>
+               <th>Name</th>
+               <th>Age</th>
+               <th>Gender</th>
+               <th>Address</th>
+           </tr>
+           @foreach(var item in stdlist)
+           {
+       <tr>
+           <th>@item.Id</th>
+           <th>@item.StudentName</th>
+           <th>@item.StudentAge</th>
+           <th>@item.StudentGender</th>
+           <th>@item.StudentAddress</th> 
+       </tr>
+           }
+       </table>
+    </div>
+</div>
+@code {
+    List<Student> stdlist;
+    protected override async Task OnInitializedAsync()
+    {
+        stdlist = _student.GetStudents();
+
+    }
+
+}

@@ -1,0 +1,60 @@
+﻿@page "/adminpage"
+<h3 style="color:blue">Admin Login Page</h3>  
+<br /> 
+<form>
+    <EditForm Model="@admins" OnValidSubmit="HandleValidSubmit"> 
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+        <div class="container-fluid">
+            <div class="container">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="username" class="control-label">User Name</label>
+                        <input form="username" class="form-control" @bind="@admins.AdminName" />
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="control-label">Password</label>
+                        <input type="password" class="form-control" @bind="@admins.Passkey" />
+                    </div>
+
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <input type="button" class="btn-btn-primary" @onclick="@Check" value="Login" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </EditForm>
+</form>
+
+
+@code {
+
+    AdvanceBlazorContext context = new AdvanceBlazorContext();
+
+    Admins admins = new Admins();
+
+    private void Check() 
+    {
+        var details = context.Admins.Where(a => a.AdminName == admins.AdminName).FirstOrDefault();
+        if (details != null && details.Passkey == admins.Passkey) 
+        {
+            _navigation.NavigateTo("AdminModule");
+        }
+        else
+        {
+            _navigation.NavigateTo("Error");  
+        }
+    }
+
+     private void HandleValidSubmit()
+    {
+        Console.WriteLine("OnValidSubmit");
+    }
+
+
+}
+

@@ -1,0 +1,45 @@
+﻿@page "/binding"
+@inject NavigationManager _navigate
+<h3 style="color:blue">Binding</h3>
+<p style="color:palevioletred">
+    Basically there are 3 types of binding:
+    <br />
+    1) One Way binding : When you change some thing on razor companent and it is visible on output screen as well.
+    <br />
+    2) Two Way Binding : When you change some thing on razor companent or on model and it is visible on output screen as well.
+    <br />
+    3) Event Binding : When an event occurs on an click is known as event binding.
+    <br />
+</p>
+<br />
+<h3 style="color:green"> Examples for Bindings:</h3>
+<br />
+<h5 style="color:red">One Way Binding</h5>
+<p style="font-family:@fm">My name is Vishesh Kapoor.</p>
+<br />
+<h5 style="color:red">Two Way Binding</h5>
+<br />
+<br />
+Enter your name:
+<input type="text" @bind="@Name" @bind:event="oninput" /> 
+<br /> 
+<p>
+    Hello, @Name!!, Have a nice Day!!  
+</p>
+<br />
+<br />
+<h5 style="color:red">Event Binding</h5> 
+<br />
+<input type="button" value="ClickMe Calculator" @onclick="ClickMe" />
+
+@functions {
+
+    public string fm = "cursive";       /*for one way binding change here to see the output on screen*/
+    public void ClickMe()                /*for event binding click the button in output*/
+    {
+        _navigate.NavigateTo("calculator");
+    }
+
+    public string Name { get; set; } = "Vishesh Kapoor";
+
+}

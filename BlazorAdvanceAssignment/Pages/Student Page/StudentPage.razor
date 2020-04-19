@@ -1,0 +1,49 @@
+﻿@page "/studentpage"
+<h3 style="color:blue">TOTAL REGISTERED STUDENTS</h3>
+<br />
+<br />
+<br />
+<h1 style="color:mediumvioletred">For new Record Click Below</h1> 
+<br />
+<div>
+    <a class="oi-account-login" href="insertstudent"> 
+        Create a new Record
+    </a>
+</div>
+<div class="container-fluid">
+    <div class="container">
+        <div class="card-deck">
+            @foreach (var item in stdlist)
+            {
+                <div class="m-3" style="min-width:18rem; max-width:30.5%">
+                    <div class="card-header">
+                        <h3 style="color:palevioletred">@item.StudentName</h3>
+                    </div>
+                    <div class="card-body">
+                        <h5 style="color:orangered">@item.StudentAge</h5>
+                        <h5 style="color:orangered">@item.StudentGender</h5>
+                        <h5 style="color:orangered">@item.StudentAddress</h5>
+                        <br />
+                        <a class="nav-link" href="UpdateStudent/@item.Id">
+                            <span class="oi oi-pencil" aria-hidden="true"></span> Update Details
+                        </a>
+                        <a class="nav-link" href="DeleteStudent/@item.Id">
+                            <span class="oi oi-trash" aria-hidden="true"></span> Delete Your Record
+                        </a>
+
+                    </div>
+                </div>
+
+            }
+        </div>
+    </div>
+</div>
+@code {
+    List<Student> stdlist;
+    protected override async Task OnInitializedAsync()
+    {
+        stdlist = _student.GetStudents();
+
+    }
+
+}

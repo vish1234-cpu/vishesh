@@ -1,0 +1,30 @@
+﻿@page "/lifecycle"
+<h3 style="color:blue">LifeCycle</h3>
+<br />
+<p style="color:palevioletred">1) OnIntialized</p>
+<br />
+<p style="color:palevioletred">2) OnIntializedAsync</p>
+<br />
+<p style="color:palevioletred">3) OnParameterSet</p>
+<br />
+<p style="color:palevioletred">4) OnParamterSetAsync</p>
+<br />
+<p style="color:palevioletred">5) OnAfterRender</p>
+<br />
+<p style="color:palevioletred">6) OnAfterRenderAsync</p>
+<br />
+<p style="color:palevioletred">7) ShouldRender</p>
+<br />
+
+
+<p style="color:palevioletred">=> OnInitialized is first called then OnIntializedAsync.
+    <br />
+    It is executed when the component is completely loaded.</p>
+<br />
+<p style="color:palevioletred"> => OnParameterSet and OnParameterSetAsync is called each time
+    <br />
+    a new and updated parameters are recieved from the parents.</p>
+<br /> 
+<p style="color:palevioletred">=> OnAfterRender and OnAfterRenderAsync are called after each render of the component.</p>
+<br /> 
+<p style="color:palevioletred">=> ShouldRender method return a boolean type value it returns true for refresh otherwise false.</p>

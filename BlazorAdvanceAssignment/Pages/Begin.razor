@@ -1,0 +1,11 @@
+﻿@page "/" 
+<p style="color:palevioletred">Welcome To The Blazor Application.</p>
+<br />
+<p style="color:palevioletred">Proceed Towards About Page <input type="button" @onclick="Submit" value="Go"></p> 
+
+@code {
+    public void Submit()
+    {
+        _navigation.NavigateTo("AboutAssignment"); 
+    }
+}

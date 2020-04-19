@@ -1,0 +1,67 @@
+﻿<div class="top-row pl-4 navbar navbar-dark">
+    <a class="navbar-brand" href="Home">Blazor Basics Assignment</a> 
+    <button class="navbar-toggler" @onclick="ToggleNavMenu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</div>
+
+<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+    <ul class="nav flex-column">
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="Home" Match="NavLinkMatch.All"> 
+                <span class="oi oi-home"></span> Home
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="BlazorClientSide">
+                <span class="oi oi-plus"></span>  Blazor Client-side
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href=" BlazorServerSide">
+                <span class="oi oi-plus"></span>  Blazor Server-side
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="LifeCycle">
+                <span class="oi oi-plus"></span>  Blazor Life-Cycle 
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="WebAssembly">
+                <span class="oi oi-plus"></span> Web Assembly
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="SignalRConnection">
+                <span class="oi oi-plus"></span> Signal R connection
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href=" RazorComponent">
+                <span class="oi oi-plus"></span> Razor Component
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="Binding">
+                <span class="oi oi-plus"></span>  Binding
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="Calculator">
+                <span class="oi oi-plus"></span>Calculator
+            </NavLink>
+        </li>
+    </ul>
+</div>
+
+@code { 
+    bool collapseNavMenu = true;
+
+    string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}
