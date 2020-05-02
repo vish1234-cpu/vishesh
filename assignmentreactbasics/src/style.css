@@ -1,0 +1,12 @@
+ .header  {
+    color: #009;
+    font-size: 1em;
+    margin-bottom: .3em;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .table {
+  margin: .3em;
+  width: 290px;
+}
